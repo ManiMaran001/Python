@@ -198,12 +198,12 @@ data=load_pickle("store.pickle")
 
 print(data[-10])
 
-#save_json("disney_movies2.json",movie_info_box)
+save_json("disney_movies2.json",movie_info_box)
 
 
 
 
-#movies_data=load_data_json("disney_movies.json")
+movies_data=load_data_json("disney_movies.json")
 
 #print(movies_data[0]["Box office"])
 #for movie in movies_data:
